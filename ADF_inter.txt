@@ -1,0 +1,28 @@
+I am having  3.6 years experiencce in it industry  previously i worked on Power Bi and currently working on ADF past 1.4 years.
+
+coming to the my project  big data injection framework.
+
+we ingest the data from  different sources like onpremises sql server and sftp server in to adlsgen2 through pipeline adf.
+
+The High level architechture of the project divided into 3 layers
+1.Bronze Layer - We ingest raw data into bronze layer.
+2.Sliver Layer - we are doing all the data clenching in this layer
+3.Gold Layer   - after clenching the data we push into SQL DW
+
+After completion of all the activities  fainaly BI team will connect to the DW 
+
+Roles and Responcebilities:
+
+1. Having implemented pipeline to ingest data from on premise to cloud.
+2. Have created Linked services to connect to On-premise Sql server, On-premise File System, Data Lake Storage and Azure SQL DW.
+3. Have created Linked services to connect to Compute resources like Databricks.
+4. Have created Datasets to read the data from On-premise Sql server, On-premise File System, Data Lake Storage and Azure SQL DW.
+5. Have implemented multiple table copy using different types activities like lookup activity,foreach activity,getmetadata activity,if activity,copy activity,stored    procedure activity.
+6. Have implemented full-load pipeline from on-premise sql server to Data Lake.
+7. Have implemented Incremental-load pipeline from On-premise sql server to Data Lake.
+9. Created the schedule trigger to run pipeline on daily basis.
+11.Have implemneted the pipeline to call the databricks notebook from data factory using Notebook activity.
+12.Have installed self hosted integration runtime to connect to on-premise.
+13.Have implemented the key-vault setup to secure credentials of storage keys and database passwords.
+14.Have created the mount point to connect to data lake from databricks.
+16.Experienced in agile-methodology for development.
